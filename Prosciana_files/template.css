@@ -478,7 +478,7 @@ video {
     height:100%;
     overflow: hidden;
     z-index:0;
-    background: url(../images/pattern.png) repeat;
+    background: url(Prosciana_files/pattern.png) repeat;
     opacity:0.3;
 }
 
@@ -741,7 +741,7 @@ video {
 }
 
 .item a:hover {
-    cursor: url(../images/cursor.png), auto;
+    cursor: url(Prosciana_files/cursor.png), auto;
 }
 
 .item a:hover img{
