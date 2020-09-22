@@ -23,7 +23,7 @@ if('function'==typeof options.error){options.error(statusCode);}
 else{console.error(statusCode);}
 return dfd.reject(statusCode);});};if(t.hasUpgradedProxy){return makeProxyCall();}
 return $.wpcom_proxy_request({metaAPI:{accessAllUsersBlogs:true}}).done(function(){t.hasUpgradedProxy=true;makeProxyCall();});});},bumpStat:function(group,names){if('undefined'!=typeof wpNotesIsJetpackClient&&wpNotesIsJetpackClient){var jpStats=['notes-menu-impressions','notes-menu-clicks'];if(_.contains(jpStats,group)){names=names.replace(/(,|$)/g,'-jetpack$1');}}
-new Image().src='http://pixel.wp.com/g.gif';},getKeycode:function(key_event){key_event=key_event||window.event;if(key_event.target)
+new Image().src='https://pixel.wp.com/g.gif';},getKeycode:function(key_event){key_event=key_event||window.event;if(key_event.target)
 element=key_event.target;else if(key_event.srcElement)
 element=key_event.srcElement;if(element.nodeType==3)
 element=element.parentNode;if(key_event.ctrlKey===true||key_event.altKey===true||key_event.metaKey===true)
