@@ -1,0 +1,24 @@
+/*
+Theme Name: Hype
+Theme URI: http://themeforest.net/user/iWebStudio/portfolio
+Author: iWebStudio
+Author URI: http://themeforest.net/user/iWebStudio/portfolio
+Description: Hype is a responsive wordpress theme for landing page
+Version: 1.0.2
+Tags: theme-options, translation-ready
+License: Split GPL License
+License URI: license.txt
+*/
+
+/*######################################*/
+/*RESET ################################*/
+/*######################################*/
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,p,blockquote,hr,th,td {
+	margin:0; 
+	padding:0;
+}
+body {
+  height: 100%;
+  width: 100%;
+}
